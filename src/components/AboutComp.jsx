@@ -13,9 +13,7 @@ function AboutComp() {
                   <a href="" className='gmail'>mr.reihansyah@gmail.com</a>
                 </div>
               </div>
-              <a href="">
                 <button className='button btn-secondary'> Download CV <i className='bx bxs-download bx-tada' ></i> </button>
-              </a>
             </div>
           </div>
           <div className="content-right">

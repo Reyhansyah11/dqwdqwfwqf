@@ -74,4 +74,377 @@
 
     /* experience */
 
+    /* portfolio */
+
+    .section-portfolio .project-content .title .dis{
+        font-size: 14px;
+    }
+    .section-portfolio .project-content .title h1{
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+    .section-portfolio .project-content .title p{
+        font-size: 15px;
+    }
+
+    .tittle-prc{
+        width: 490px;
+    }
+    .tittle-prc .in-p{
+        font-size: 22px;
+    }
+    .tittle-prc p{
+        font-size: 12px;
+    }
+
+    /* portfolio */
+
+    /* about */
+
+    .about-section .content-left .profile .photo .photo-profile{
+        width: 270px;
+        margin-top: 30px;
+    }
+    .about-section .content-left .profile .info-content{
+        font-size: 13px;
+    }
+    .about-section .content-left .profile .button{
+        font-size: 11px;
+        margin-top: 30px;
+    }
+
+    .content-right .about h1{
+        font-size: 28px;
+    }
+    .content-right .about .icon{
+        font-size: 14px;
+    }
+    .content-right .about .icon .bx{
+        font-size: 14px;
+        position: relative;
+        top: 2px;
+        left: 2px;
+    }
+    .content-right .about .about-me-content p{
+        line-height: 23px;
+        font-size: 12.5px;
+        position: relative;
+        top: 12px;
+    }
+
+    .content-right .roles h1{
+        font-size: 26px;
+    }
+    .content-right .roles .main-apps h3{
+        font-size: 14px;
+    }
+    .content-right .roles .main-apps .AP .app-info h2{
+        font-size: 14px;
+    }
+    .content-right .roles .main-apps .AP .app-info p{
+        font-size: 11px;
+    }
+    .content-right .roles .main-apps .AP .iconify{
+        font-size: 32px;
+    }
+    .content-right .roles .main-apps .AP .app-info.figma{
+        font-size: 32px;
+        margin-left: 42px;
+    }
+
+    .content-right .roles .main-skill{
+        font-size: 28px;
+    }      
+
+    /* about */
+
+    /* footer */
+
+    .footer {
+        font-size: 14px;
+    }
+
+    /* footer */
+
+}
+
+@media (max-width: 991px) {
+
+    .navbar .navbar-nav .nav-link:hover {
+        color: var(--primary-sdw);
+    }
+
+    .navbar .navbar-nav .nav-link::after{
+        content: '';
+        display: block;
+        padding-bottom: 0.5rem;
+        font-weight: bold;
+        border-bottom: 0.1rem solid var(--primary-sdw);
+        transform: scaleX(0);
+        transition: 0.3s linear;
+        position: relative;
+        left: -37px;
+    }
+    .navbar .navbar-nav .nav-link:hover::after{
+        transform: scaleX(0.5);
+    }
+
+
+    .navbar .navbar-nav {
+      display: none; /* Hide the original navbar */
+    }
+
+    .navbar-hamburger {
+        display: block;
+    }
+
+    .navbar-nav.active {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 250px;
+        background-color: rgba(228, 228, 228, 0.9);
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+        padding-top: 60px;
+        z-index: 999;
+    }
+
+    .navbar-nav .nav-link {
+        margin: 10px 20px;
+        text-align: left;
+    }
+
+
+    /* experience */
+
+    .experience .information .opsi{
+        display: flex; /* Mengubah konten menjadi flex container */
+        align-items: center; /* Mengatur elemen secara vertikal di tengah */
+        margin-right: 20px; /* Jarak antara setiap item */
+        background-color: var(--White);
+        color: var(--BLACK);
+        width: 340px;
+        height: 65px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.07);
+        
+    }
+
+    .experience .information .opsi .logo{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background-color: var(--black-90);
+        position: relative;
+        left: 30px;
+        color: var(--White);
+    }
+    .experience .information .opsi .logo .fa-solid {
+        position: absolute;
+        top: 15px;
+        left: 14px;
+        font-size: 16px;
+    }
+    .experience .information .opsi .logo .fa-brands{
+        position: absolute;
+        top: 13px;
+        left: 16px;
+        font-size: 18px;
+    }
+    .experience .information{
+        padding: 30px;
+    }
+    .experience .information .opsi p{
+        font-size: 11px;
+    }
+
+    .experience .help h1{
+        font-size: 24px;
+        left: -30px;
+    }
+    .experience .help p{
+        font-size: 11px;
+    }
+    .complate h2,
+.on-going h2{
+    font-size: 26px;
+}
+.box
+.complate p,
+.box
+.on-going p{
+  flex: 1; /* Memungkinkan elemen untuk mengambil ruang yang tersisa */
+  font-size: 10px;
+  font-weight: 500;
+}
+
+    /* experience */
+
+        /* portfolio */
+        .section-portfolio .project-content .explore{
+            position: relative;
+            top: 115px;
+            left: 130px;
+        }
+
+        .project{
+            position: relative;
+            left: -70px;
+        }
+        .mini-games {
+            position: absolute;
+            bottom: 150px;
+            right: 390px;
+            padding-top: 160px;
+        }
+
+        .section-portfolio .project-content .title .dis{
+            font-size: 10px;
+        }
+        .section-portfolio .project-content .title h1{
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+        .section-portfolio .project-content .title p{
+            font-size: 12px;
+        }
+    
+        .tittle-prc{
+            width: 420px;
+        }
+        .tittle-prc .in-p{
+            font-size: 20px;
+        }
+        .tittle-prc p{
+            font-size: 10px;
+        }
+
+        .prcss-box h1{
+            font-size: 12px;
+        }
+        .prcss-box p{
+            font-size: 9px;
+        }
+
+        
+    .box-content {
+        width: 240px;
+        height: 340px;
+    }
+    
+        /* portfolio */
+
+
+        .about-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start; /* Menyesuaikan konten agar sejajar pada bagian atas */
+            color: var(--White); 
+            position: relative;
+            bottom: 70px;
+        }
+
+          /* content left */          
+        .content-left {
+            width: 50%;
+            padding: 20px;
+        }
+        .about-section .content-left .profile .photo .photo-profile{
+            width: 240px;
+        }
+        .about-section .content-left .profile .info-content{
+            font-size: 11px;
+            position: relative;
+            top: -10px;
+        }
+        .about-section .content-left .profile .info-content .gmail:hover{
+            color: var(--primary-sdw);
+        }
+        .about-section .content-left .profile .button{
+            margin-top: 20px;
+            font-size: 8px;
+        }      
+          /* content left */
+
+        /* content right */
+        
+        .content-right .about h1{
+            font-size: 24px;
+        }
+        .content-right .about .icon{
+            font-size: 12px;
+        }
+        .content-right .about .icon .bx{
+            font-size: 12px;
+            position: relative;
+            top: 2px;
+            left: 2px;
+        }
+        .content-right .about .about-me-content p{
+            line-height: 20px;
+            font-size: 10px;
+            position: relative;
+            top: 12px;
+        }
+    
+        .content-right .roles h1{
+            font-size: 22px;
+        }
+        .content-right .roles .main-apps h3{
+            font-size: 12px;
+        }
+        .content-right .roles .main-apps .AP .app-info h2{
+            font-size: 12px;
+        }
+        .content-right .roles .main-apps .AP .app-info p{
+            font-size: 10px;
+        }
+        .content-right .roles .main-apps .AP .iconify{
+            font-size: 28px;
+            margin-left: 5px;
+        }
+        .content-right .roles .main-apps .AP .app-info.figma{
+            font-size: 28px;
+            margin-left: 42px;
+        }
+    
+        .content-right .roles .main-skill{
+            font-size: 20px;
+        }      
+
+        /* content right */
+
+
+        .profile,
+        .about,
+        .roles {
+            width: 100%;
+            height: 260px; 
+            background-color: var(--secondary-color); 
+            margin-bottom: 20px; 
+            border-radius: 10px; 
+        }
+        .profile {
+            height: 540px;
+        }
+
+
+        /* contact */
+
+        .head{
+            top: 19%;
+            left: 41%;
+        }
+
+
+        .container{
+            max-width: 860px;
+        }
+
+        /* contact */
+
 }
