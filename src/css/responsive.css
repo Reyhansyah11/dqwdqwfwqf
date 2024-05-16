@@ -1,0 +1,77 @@
+@media(max-width: 1132px){
+
+    /* hero */
+    
+    .hero-left h1{
+        font-size: 26px;
+    }
+    .hero-left .dis{
+        font-size: 10px;
+    }
+    .hero-left .special{
+        font-size: 11.5px;
+    }
+    .hero-left .special span{
+        font-size: 10px;
+    }
+    .hero-left .special .typing-text{
+        font-size: 9px;
+        position: relative;
+        top: 4px;
+    }
+    .hero-left .btn-primary{
+        font-size: 10px;
+        position: relative;
+        top: 10px;
+    }
+
+
+    .hero-right {
+        left: -50px;
+    }
+    .heroimage1,
+    .heroimage2,
+    .heroimage3{
+        width: 180px;
+        position: absolute;
+        top: 80%; /* Menempatkan gambar di tengah vertikal */
+    }
+
+    /* hero */
+
+    /* experience */
+
+    .experience .information{
+        padding: 30px;
+    }
+    .experience .information .opsi .logo  .fa-solid{
+        font-size: 20px;
+        left: 13px;
+        top: 16px;
+    }
+    .experience .information .opsi p{
+        font-size: 15px;
+    }
+
+    .experience .help h1{
+        font-size: 28px;
+    }
+    .experience .help p{
+        font-size: 12px;
+    }
+    .complate h2,
+.on-going h2{
+    font-size: 28px;
+}
+.box
+.complate p,
+.box
+.on-going p{
+  flex: 1; /* Memungkinkan elemen untuk mengambil ruang yang tersisa */
+  font-size: 10px;
+  font-weight: 500;
+}
+
+    /* experience */
+
+}

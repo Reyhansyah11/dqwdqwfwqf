@@ -367,10 +367,12 @@
   position: relative;
   top: -10px;
 }
+.box
 .complate p,
+.box
 .on-going p{
   flex: 1; /* Memungkinkan elemen untuk mengambil ruang yang tersisa */
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 500;
 }
 .complate h2,
@@ -1042,3 +1044,5 @@ textarea {
   height: 100%;
 }
 /* .mini-games */
+
+
