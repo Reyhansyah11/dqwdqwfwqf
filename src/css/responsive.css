@@ -436,7 +436,7 @@
         /* contact */
 
         .head{
-            top: 19%;
+            top: 23.5%;
             left: 41%;
         }
 
@@ -541,11 +541,11 @@
     .experience .help{
         top: 10px;
         left: -50px;
-        flex: 1.8;
+        flex: 1.9;
     }
     .experience .help h1{
         font-size: 20px;
-        left: -19px;
+        left: -5px;
         top: 10px;
     }
     .experience .help p{
@@ -698,7 +698,7 @@
     }
     .content-right .about .about-me-content p{
         line-height: 12px;
-        font-size: 8px;
+        font-size: 7px;
         position: relative;
         top: -5px;
         margin-bottom: 8px;
@@ -761,7 +761,7 @@
      /* contact */
 
      .head{
-        top: 25.2%;
+        top: 30.5%;
         left: 38%;
         font-size: 12px;
     }
