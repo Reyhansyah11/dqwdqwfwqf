@@ -538,13 +538,14 @@
   justify-content: space-between;
   position: relative;
   top: -150px;
-  padding: 0 50px;
+  padding: 0 20px;
 }
 
 .prcss-box {
   width: calc(33.33% - 20px); /* Lebar sekitar 33% dari parent container dengan jarak 20px antara kotak */
   padding: 20px 0;
   margin-bottom: 20px;
+  box-sizing: border-box;
 }
 .prcss-box h1{
   font-size: 14px;

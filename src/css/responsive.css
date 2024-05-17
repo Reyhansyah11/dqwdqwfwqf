@@ -448,3 +448,444 @@
         /* contact */
 
 }
+
+@media(max-width: 767px){
+
+    /* hero */
+
+    .hero-left {
+        right: -10px;
+    }
+    .hero-left h1{
+        font-size: 21px;
+    }
+    .hero-left .dis{
+        font-size: 9px;
+    }
+    .hero-left .special{
+        font-size: 11.5px;
+    }
+    .hero-left .special span{
+        font-size: 9px;
+    }
+    .hero-left .special .typing-text{
+        font-size: 8px;
+        position: relative;
+        top: 3px;
+    }
+    .hero-left .btn-primary{
+        font-size: 9px;
+        position: relative;
+        top: 10px;
+    }
+
+
+    .hero-right {
+        left: -30px;
+    }
+    .heroimage1,
+    .heroimage2,
+    .heroimage3{
+        width: 160px;
+        position: absolute;
+        top: 80%; /* Menempatkan gambar di tengah vertikal */
+    }
+    .heroimage1 {
+        left: 20px;
+    }
+    .heroimage3 {
+        right: 20px;
+    }
+
+    /* hero */
+
+    /* experience */
+
+    .experience .information{
+        right: -10px;
+        top: 10px;
+    }
+
+    .experience .information .opsi{
+        width: 260px;
+        height: 60px;
+    }
+
+    .experience .information .opsi .logo{
+        width: 45px;
+        height: 40px;
+    }
+    .experience .information .opsi .logo .fa-solid {
+        position: absolute;
+        top: 14px;
+        left: 14px;
+        font-size: 15px;
+    }
+    .experience .information .opsi .logo .fa-brands{
+        position: absolute;
+        top: 13px;
+        left: 16px;
+        font-size: 18px;
+    }
+    .experience .information{
+        padding: 20px;
+    }
+    .experience .information .opsi p{
+        margin-left: 70px;
+        font-size: 10px;
+    }
+    .experience .information .opsi p span{
+        display: none;
+    }
+
+    .experience .help{
+        top: 10px;
+        left: -50px;
+        flex: 1.8;
+    }
+    .experience .help h1{
+        font-size: 20px;
+        left: -19px;
+        top: 10px;
+    }
+    .experience .help p{
+        font-size: 9.5px;
+        position: relative;
+        left: 14px;
+    }
+    .complate h2,
+.on-going h2{
+    font-size: 22px;
+    position: relative;
+    left: 15px;
+}
+.box
+.complate p,
+.box
+.on-going p{
+  flex: 1; /* Memungkinkan elemen untuk mengambil ruang yang tersisa */
+  font-size: 8px;
+  font-weight: 500;
+  position: relative;
+  left: 15px;
+}
+
+    /* experience */
+
+    /* portfolio */
+    .section-portfolio .project-content .explore{
+        position: relative;
+        top: 115px;
+        left: 110px;
+        font-size: 10px;
+    }
+
+    .project{
+        position: relative;
+        left: -10px;
+        top: -100px;
+    }
+    .mini-games {
+        position: absolute;
+        bottom: 150px;
+        right: 290px;
+        padding-top: 130px;
+    }
+
+    .section-portfolio .project-content .title .dis{
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+    .section-portfolio .project-content .title h1{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .section-portfolio .project-content .title p{
+        font-size: 10px;
+    }
+
+    .tittle-prc{
+        width: 340px;
+        margin-top: 20px;
+    }
+    .tittle-prc .in-p{
+        font-size: 16px;
+    }
+    .tittle-prc p{
+        font-size: 9px;
+    }
+
+    .prcss-box h1{
+        font-size: 10px;
+    }
+    .prcss-box p{
+        font-size: 8px;
+    }
+
+    
+.box-content {
+    width: 180px;
+    height: 280px;
+}
+
+.work-prcss {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tiga kolom */
+    gap: 20px; /* Jarak antar elemen */
+    padding: 0 20px; /* Padding untuk kontainer */
+  }
+  .prcss-box {
+    width: 100%; /* Lebar penuh dalam grid */
+    margin: 0; /* Menghapus margin karena grid gap sudah mengatur jarak */
+  }
+  .prcss-box:nth-child(4) {
+    grid-column: 1; /* Elemen ke-4 mengambil dua kolom */
+  }
+  .prcss-box:nth-child(5) {
+    grid-column: 3; /* Elemen ke-5 berada di kolom ketiga */
+  }
+
+
+
+    /* portfolio */
+
+    .about-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start; /* Menyesuaikan konten agar sejajar pada bagian atas */
+        color: var(--White); 
+        position: relative;
+        bottom: 70px;
+    }
+
+      /* content left */          
+    .content-left {
+        width: 50%;
+        padding: 20px;
+    }
+    .about-section .content-left .profile .photo .photo-profile{
+        width: 180px;
+        position: relative;
+        top: 10px;
+    }
+    .about-section .content-left .profile .info-content{
+        font-size: 9px;
+        position: relative;
+        top: -15px;
+    }
+    .about-section .content-left .profile .info-content .gmail:hover{
+        color: var(--primary-sdw);
+    }
+    .about-section .content-left .profile .button{
+        margin-top: 6px;
+        font-size: 6px;
+    }      
+      /* content left */
+
+    /* content right */
+    
+    .content-right .about h1{
+        font-size: 18px;
+    }
+    .content-right .about .icon{
+        font-size: 10px;
+    }
+    .content-right .about .icon .bx{
+        font-size: 10px;
+        position: relative;
+        top: 2px;
+        left: 2px;
+    }
+    .content-right .about .about-me-content p{
+        line-height: 12px;
+        font-size: 8px;
+        position: relative;
+        top: -5px;
+        margin-bottom: 8px;
+    }
+
+
+    .content-right .roles .skill h3{
+        font-size: 9px;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+    .content-right .roles h1{
+        font-size: 16px;
+        margin-bottom: 8px;
+        position: relative;
+        top: -5px;
+    }
+    .content-right .roles .main-apps h3{
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+    .content-right .roles .main-apps .AP .app-info h2{
+        font-size: 8px;
+    }
+    .content-right .roles .main-apps .AP .app-info p{
+        font-size: 7px;
+    }
+    .content-right .roles .main-apps .AP .iconify{
+        font-size: 20px;
+        margin-left: 3px;
+    }
+    .content-right .roles .main-apps .AP .app-info.figma{
+        font-size: 22px;
+        margin-left: 38px;
+    }
+
+    .content-right .roles .main-skill{
+        font-size: 14px;
+        position: relative;
+        left: -10px;
+        top: -2px;
+    }      
+
+    /* content right */
+
+
+    .profile,
+    .about,
+    .roles {
+        width: 100%;
+        height: 200px; 
+        background-color: var(--secondary-color); 
+        margin-bottom: 20px; 
+        border-radius: 10px; 
+    }
+    .profile {
+        height: 420px;
+    }
+
+     /* contact */
+
+     .head{
+        top: 25.2%;
+        left: 38%;
+        font-size: 12px;
+    }
+
+
+    .container{
+        max-width: 640px;
+        position: relative;
+        top: 140px;
+    }
+
+    
+.contact-item h3 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .contact-item p{
+    font-size: 9px;
+  }
+
+  .a-con{
+    width: 40px;
+    height: 40px;
+  }
+  .a-con .fas{
+    font-size: 18px;
+    position: relative;
+    bottom: 3px;
+  }
+  form input{
+    margin-top: 10px;
+    height: 35px;
+  }
+  input,
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  height: 60px;
+}
+.right h2{
+    font-size: 18px;
+    top: 25px;
+  }
+
+  .left {
+    position: relative;
+    top: -5px;
+  }
+
+  .button-1{
+    padding: 5px 10px;
+  }
+
+    /* contact */
+
+    .footer {
+        position: relative;
+        top: 48px;
+    }
+
+
+    /* services */
+    .boxx {
+        width: 200px;
+        height: 200px;
+    }
+    .s-icon i {
+        top: 50px;
+    }
+    .boxx h3 {
+        top: 70px;
+    }
+    /* services */
+
+    /*main project*/
+
+    .portfolio-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        min-height: 100vh;
+        position: relative;
+        top: 20px;
+        margin-bottom: -30px;
+      }
+
+    .portfolio-content .row img {
+        width: 100%;
+        height: 15rem;
+        border-radius: 8px;
+        display: block;
+        transition: transform 0.5s;
+      }
+      .layer {
+        width: 100%;
+        height: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.1), #0075FF);
+        position: absolute;
+        border-radius: 8px;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 40px;
+        transition: height 0.5s;
+      }
+      .pjk {
+        width: 280px; /* Atur lebar elemen */
+        height: 280px; /* Atur tinggi elemen */
+        position: relative;
+        left: 38px;
+      }
+      
+      
+    /*main project*/
+
+}
+
+@media(max-width: 397px){
+
+}
