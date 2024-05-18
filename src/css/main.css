@@ -205,7 +205,7 @@
   letter-spacing: .15em;
   animation: typing 3s steps(20, end), blink-caret .75s step-end infinite;
   position: relative;
-  top: 5px;
+  top: 4px;
   font-size: 12px;
 }
 @keyframes typing {
@@ -483,7 +483,6 @@
 }
 
 .mini-games {
-  order: 1; 
   position: absolute;
   bottom: 150px;
   right: 490px;
@@ -496,7 +495,6 @@
 
 
 .big-project {
-  order: 2; 
   margin-bottom: 70px;
   text-align: center;
   font-size: 20px;
@@ -506,7 +504,6 @@
 }
 
 .comingsoon {
-  order: 3; /* Mengatur figma-project menjadi urutan ketiga */
   text-align: center;
   font-size: 20px;
   font-weight: 700;
@@ -625,9 +622,11 @@
   text-align: center;
 }
 .about-section .content-left .profile .photo .photo-profile{
-  width: 300px;
-  margin-bottom: 50px;
-  margin-top: 10px;
+  width: 350px;
+  margin-bottom: 40px;
+  position: relative;
+  left: 20px;
+  top: -10px;
 }
 .about-section .content-left .profile .info-content{
   text-align: center;

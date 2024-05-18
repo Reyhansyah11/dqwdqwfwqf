@@ -1,5 +1,5 @@
 import {} from 'react'
-import image4 from '../assets/img/me/image4.png'
+import Grup1 from '../assets/img/me/Group 1.png'
 
 function AboutComp() {
     return (
@@ -7,7 +7,7 @@ function AboutComp() {
           <div className="content-left">
             <div className="profile">
               <div className="photo">
-                <img src={image4} alt="" className='photo-profile'/>
+                <img src={Grup1} alt="" className='photo-profile'/>
                 <div className="info-content">
                   <h2>Muhamad Restu Reihansyah</h2>
                   <a href="" className='gmail'>mr.reihansyah@gmail.com</a>

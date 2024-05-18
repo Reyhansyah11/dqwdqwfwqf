@@ -10,7 +10,7 @@ function HeroComp() {
 
     const [titleIndex, setTitleIndex] = useState(0);
     const [isTyping, setIsTyping] = useState(true);
-    const titles = ["UI/UX Designer", "Fullstack Development"];
+    const titles = ["Web Development", "Fullstack Development"];
     const currentTitle = isTyping ? titles[titleIndex] : ""; // Default text after typing animation
 
     useEffect(() => {
