@@ -98,7 +98,6 @@
     background-color: rgba(228, 228, 228, .7); /* Warna dengan opasitas 69% */
     position: fixed; /* Navbar tetap pada posisi yang sama */
     top: 0; /* Navbar menempel di bagian atas layar */
-    width: 100%; /* Lebar navbar 100% dari layar */
     z-index: 1000; /* Menetapkan indeks tumpukan z agar navbar berada di atas konten lain */
     /* border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px; */
