@@ -13,7 +13,7 @@ function GameComp (){
             </h2>
         </div>
 
-        <div className="portfolio-content">
+        <div className="portfolio-contents tp">
             <div className="pjk">
                 <div className="row">
                 <img src={Suit} alt="game Image" className='game1' />

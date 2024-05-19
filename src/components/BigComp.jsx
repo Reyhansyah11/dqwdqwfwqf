@@ -13,7 +13,7 @@ function BigComp (){
             </h2>
         </div>
 
-        <div className="portfolio-content">
+        <div className="portfolio-contents tp">
             <div className="pjk">
                 <div className="row">
                 <img src={Bp1} alt="game Image" className='Bp1' />

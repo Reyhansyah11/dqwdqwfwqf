@@ -14,7 +14,7 @@ function MprojectComp (){
             </h2>
         </div>
 
-        <div className="portfolio-content">
+        <div className="portfolio-contents Mp">
 
             <div className="pjk">
                 <div className="row">

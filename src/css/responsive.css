@@ -891,284 +891,325 @@ textarea {
 
 @media(max-width: 397px){
 
-    .navbar {
-        width: 372px !important;
+    .navbar .navbar-logo {
+        font-size: 12px;
+        left: 10px;
     }
 
-    /* Hero Section */
+    .navbar-nav.active {
+        width: 200px;
+    }
+
+    .navbar .navbar-nav .nav-link{
+        font-size: 14px;
+    }
+    .close-menu{
+        top: 14.9px;
+        font-size: 14px;
+    }
+    .navbar-hamburger {
+        font-size: 14px;
+    }
+
+    .navbar-nav .nav-link {
+        margin: 10px 10px;
+    }
+
+
+    /* hero */
     .hero-section {
         flex-direction: column;
         align-items: center;
-        margin-top: 80px;
+        margin-top: 80px; /* Kurangi margin atas */
         padding: 10px;
         width: 372px;
-    }
+        /* display: none; */
+      }
+    
 
     .hero-left {
-        flex-grow: 1;
-        padding: 5px;
-        margin: 0;
-        text-align: center;
-        position: relative;
-        top: 25px;
-        right: 5px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        flex-grow: 1; /* Menggunakan flex-grow untuk memungkinkan hero-left memenuhi ruang yang tersedia */
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    position: static; /* Hapus posisi absolut */
+    display: flex;
+    position: relative;
+    top: 25px;
+    right: -10px;
+    flex-direction: column;
+    align-items: center; /* Memastikan konten berada di tengah secara horizontal */
+    justify-content: center; /* Memastikan konten berada di tengah secara vertikal */
     }
-
-    .hero-left h1 {
+    .hero-left h1{
         font-size: 16px;
     }
-
-    .hero-left .dis {
+    .hero-left .dis{
         font-size: 8px;
     }
-
-    .hero-left .special {
+    .hero-left .special{
         font-size: 11.5px;
     }
-
-    .hero-left .special span {
+    .hero-left .special span{
         font-size: 9px;
     }
-
-    .hero-left .special .typing-text {
+    .hero-left .special .typing-text{
         letter-spacing: .15em;
         animation: typing 3s steps(20, end), blink-caret .75s step-end infinite;
         position: relative;
         top: 3px;
         font-size: 8px;
-    }
-
-    .hero-left .btn-primary {
+      }
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 40% }
+      }
+      
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+      }
+    .hero-left .btn-primary{
         font-size: 7px;
         position: relative;
         top: 10px;
     }
 
+
     .hero-right {
         display: none;
     }
+    /* hero */
 
-    /* Experience Section */
-    .experience {
+    /* experience */
+
+    .experience{
         flex-direction: column;
         align-items: center;
-        margin-top: 80px;
+        margin-top: 80px; /* Kurangi margin atas */
         padding: 10px;
-        width: 370px;
+        width: 387px;
+        /* display: none; */
     }
 
-    .experience .information {
+    .experience .information{
         display: none;
     }
 
-    .experience .help {
+    .experience .help{
         padding: 5px;
         margin: 0;
         text-align: center;
-        position: relative;
+        position: static; /* Hapus posisi absolut */
         display: flex;
+        position: relative;
+        top: 65px;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        align-items: center; /* Memastikan konten berada di tengah secara horizontal */
+        justify-content: center; /* Memastikan konten berada di tengah secara vertikal */
         top: 10px;
         left: -15px;
     }
-
-    .experience .help h1 {
+    .experience .help h1{
         font-size: 16px;
         left: 15px;
         top: 10px;
     }
-
-    .experience .help p {
+    .experience .help p{
         font-size: 8px;
         position: relative;
         left: 14px;
     }
-
     .complate h2,
-    .on-going h2 {
-        display: none;
-    }
+.on-going h2{
+    display: none;
+}
+.box
+.complate p,
+.box
+.on-going p{
+  display: none;
+}
 
-    .box .complate p,
-    .box .on-going p {
-        display: none;
-    }
+    /* experience */
 
-    /* Portfolio Section */
-    .section-portfolio {
+    /* portfolio */
+
+    .section-portfolio{
         width: 372px;
-        margin-top: 120px;
-        padding: 10px;
+        /* display: none; */
     }
 
-    .section-portfolio .project-content .explore {
+    .section-portfolio .project-content .explore{
         position: relative;
         top: -135px;
         left: 12px;
-        font-size: 10px;
+        font-size: 8px;
+    }
+
+    .section-portfolio{
+        margin-top: 120px;
+        padding: 10px 10px;
+    }
+
+    .project{
+        display: none;
     }
 
     .section-portfolio .project-content .title {
-        width: 450px;
+        width: 350px;
         position: relative;
         left: 10px;
         top: -60px;
         margin-bottom: 100px;
     }
-
-    .section-portfolio .project-content .title .dis {
+    
+    .section-portfolio .project-content .title .dis{
         font-size: 9px;
         margin-bottom: 10px;
     }
-
-    .section-portfolio .project-content .title h1 {
+    .section-portfolio .project-content .title h1{
         font-size: 18px;
         margin-bottom: 5px;
     }
-
-    .section-portfolio .project-content .title p {
+    .section-portfolio .project-content .title p{
         font-size: 10px;
     }
 
-    /* About Section */
+
+.work-prcss {
+    display: none
+  }
+
+  .tittle-prc{
+    display: none;
+    }
+
+
+    /* portfolio */
+
     .about-section {
-        display: flex;
+        /* display: none; */
         justify-content: space-between;
-        align-items: flex-start;
-        color: var(--White);
+        align-items: flex-start; /* Menyesuaikan konten agar sejajar pada bagian atas */
+        color: var(--White); 
         position: relative;
         bottom: 70px;
         left: -85px;
         width: 372px;
     }
 
+      /* content left */          
     .content-left {
         width: 50%;
         padding: 10px;
     }
-
-    .about-section .content-left .profile .photo .photo-profile {
-        width: 140px;
+    .about-section .content-left .profile .photo .photo-profile{
+        width: 150px;
         position: relative;
-        top: 10px;
+        top: -10px;
+        padding-right: 10px;
     }
-
-    .about-section .content-left .profile .info-content {
-        font-size: 8px;
+    .about-section .content-left .profile .info-content{
+        font-size: 6px;
         position: relative;
-        top: -15px;
+        top: -25px;
     }
-
-    .about-section .content-left .profile .info-content .gmail:hover {
+    .about-section .content-left .profile .info-content .gmail:hover{
         color: var(--primary-sdw);
     }
+    .about-section .content-left .profile .button{
+        position: relative;
+        top: -15px;
+        font-size: 4px;
+    }      
+      /* content left */
 
-    .about-section .content-left .profile .button {
-        margin-top: 6px;
-        font-size: 6px;
-    }
+    /* content right */
 
     .content-right {
         padding: 10px;
         margin-right: 0px;
     }
-
-    .content-right .about h1 {
-        font-size: 18px;
-    }
-
-    .content-right .about .icon {
-        font-size: 10px;
-    }
-
-    .content-right .about .icon .bx {
+    
+    .content-right .about h1{
         font-size: 10px;
         position: relative;
-        top: 2px;
+        top: -8px;
+    }
+    .content-right .about .icon{
+        font-size: 5px;
+        margin-top: -2px;
+    }
+    .content-right .about .icon .bx{
+        font-size: 5px;
+        position: relative;
+        top: 0px;
         left: 2px;
     }
-
-    .content-right .about .about-me-content p {
-        line-height: 12px;
-        font-size: 7px;
+    .content-right .about .about-me-content p{
+        line-height: 8px;
+        font-size: 5px;
         position: relative;
         top: -5px;
         margin-bottom: 8px;
     }
 
-    .content-right .roles .skill h3 {
-        font-size: 9px;
-        margin-bottom: 10px;
-        margin-top: 15px;
+    
+    .content-right .roles .skill h3{
+        font-size: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
     }
-
-    .content-right .roles h1 {
-        font-size: 16px;
+    .content-right .roles h1{
+        font-size: 9px;
         margin-bottom: 8px;
         position: relative;
         top: -5px;
     }
-
-    .content-right .roles .main-apps h3 {
-        font-size: 9px;
-        margin-bottom: 10px;
-    }
-
-    .content-right .roles .main-apps .AP .app-info h2 {
-        font-size: 8px;
-    }
-
-    .content-right .roles .main-apps .AP .app-info p {
+    .content-right .roles .main-apps h3{
         font-size: 7px;
+        margin-bottom: 5px;
+        position: relative;
+        top: -5px;
     }
-
-    .content-right .roles .main-apps .AP .iconify {
-        font-size: 20px;
+    .content-right .roles .main-apps .AP .app-info h2{
+        font-size: 5px;
+    }
+    .content-right .roles .main-apps .AP .app-info p{
+        font-size: 5px;
+    }
+    .content-right .roles .main-apps .AP .iconify{
+        font-size: 14px;
         margin-left: 3px;
     }
-
-    .content-right .roles .main-apps .AP .app-info.figma {
+    .content-right .roles .main-apps .AP .app-info.figma{
         font-size: 22px;
-        margin-left: 38px;
+        margin-left: 36px;
     }
 
-    .content-right .roles .main-skill {
-        font-size: 14px;
+    .content-right .roles .main-skill{
+        font-size: 10px;
         position: relative;
-        left: -10px;
+        left: -3px;
         top: -2px;
-    }
+        margin: 0 3px;
+    }      
+
+    /* content right */
+
 
     .profile,
     .about,
     .roles {
         width: 160px;
-        height: 160px;
-        background-color: var(--secondary-color);
-        margin-bottom: 20px;
-        border-radius: 10px;
+        height: 140px; 
+        background-color: var(--secondary-color); 
+        margin-bottom: 20px; 
+        border-radius: 10px; 
     }
-
     .profile {
-        height: 340px;
+        height: 300px;
     }
-
-    body {
-        margin-right: calc((100% - 372px) / 2);
-    }
-
-    /* Hide Elements */
-    .project,
-    .work-prcss,
-    .tittle-prc {
-        display: none;
-    }
-
 
      /* contact */
 
@@ -1231,26 +1272,58 @@ textarea {
 
     .footer {
         position: relative;
-        top: 48px;
+        top: 10px;
+        padding: 9px;
+        font-size: 10px;
     }
 
 
     /* services */
+
+    .services{
+        /* display: none; */
+    }
+
+    .services-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Mengatur grid menjadi tiga kolom */
+        gap: 1rem;
+        margin-top: 1rem;
+        padding-bottom: 50px;
+        margin-bottom: -5rem;
+        justify-content: center; /* Mengatur kotak ke tengah secara horizontal */
+      }
+
     .boxx {
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
+        padding: 10px 10px;
     }
     .s-icon i {
-        top: 50px;
+        font-size: 14px;
+        top: 25px;
     }
     .boxx h3 {
-        top: 70px;
+        top: 35px;
+        font-size: 8px;
     }
     /* services */
 
     /*main project*/
 
-    .portfolio-content {
+    .main-text{
+        font-size: 14px;
+        top: 90px;
+        margin-top: 50px;
+    }
+
+    .row {
+        width: 80%;
+        height: 10rem;
+        margin-left: 30px;
+    }
+
+    .portfolio-contents {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(350px, auto));
         align-items: center;
@@ -1258,13 +1331,13 @@ textarea {
         gap: 5px;
         min-height: 100vh;
         position: relative;
-        top: 20px;
+        top: 10px;
         margin-bottom: -30px;
       }
 
-    .portfolio-content .row img {
+    .portfolio-contents .row img {
         width: 100%;
-        height: 15rem;
+        height: 10rem;
         border-radius: 8px;
         display: block;
         transition: transform 0.5s;
@@ -1285,7 +1358,14 @@ textarea {
         text-align: center;
         padding: 0 40px;
         transition: height 0.5s;
-      }
+    }
+    .layer i {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+
       .pjk {
         width: 280px; /* Atur lebar elemen */
         height: 280px; /* Atur tinggi elemen */
@@ -1293,7 +1373,29 @@ textarea {
         left: 38px;
       }
       
-      
+
+      .portfolio-contents.Mp{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        min-height: 100vh;
+        position: relative;
+        top: 10px;
+        margin-bottom: -30px;
+        right: 60px;
+      }
+    
+    .portfolio-contents.Mp .pjk {
+        width: 180px; /* Atur lebar elemen */
+        height: 180px; /* Atur tinggi elemen */
+    } 
+    .portfolio-contents.Mp .pjk .row{
+        width: 90%;
+        height: 10rem;
+    }
+    
     /*main project*/
 
 }
